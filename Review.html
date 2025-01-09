@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Gadgethub.com.my</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="header">
+      <button class="openbtn" onclick="openNav()">☰</button>
+      <img src="img/Logo.png" alt="Logo" class="logo" />
+      <div class="website-name">
+        <a href="ProjectHome.html"> <h1>GadgetsHub</h1></a>
+      </div>
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="ProjectHome.html"><span class="icon">🏠︎</span> Home</a>
+        <a href="Gadget.html"><span class="icon">📱</span> Gadgets</a>
+        <a href="Accessories.html"><span class="icon">🎧</span> Accessories</a>
+        <a href="Review.html"><span class="icon">💬</span> Review</a>
+        <a href="News.html"><span class="icon">📣</span> News</a>
+        <a href="Contact.html"><span class="icon">📞</span> Contact</a>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search" />
+      </div>
+    </div>
+    <br />
+    <main>
+      <h1>Review</h1>
+      <div class="reviews-container">
+        <div class="review">
+          <h3>Jason</h3>
+          <p>
+            If you are on the train or sitting in a cafe sipping a cup of
+            coffee, try looking at people’s phones around you, you’ll be bound
+            to see one that’s pretty beaten up or has a cracked screen, and
+            these poor souls probably just don’t want to pay for a new phone
+            because they are so expensive these days and just can’t afford to
+            break another one. This is the very reason why aside from gimmicky
+            AI features, many brands have begun to emphasize durability on their
+            smartphones, with companies like Honor leading the pack with its X
+            series phones, although the recent Honor X9c still isn’t affordable
+            to many people, such as students or someone that’s just getting
+            started in the workforce.
+          </p>
+          <img src="img/review2.jpg" alt="review1" class="review-image" />
+        </div>
+        <div class="review">
+          <h3>Warren</h3>
+          <p>
+            One of the annoying things about most open earbuds is that they can
+            easily fall out of your ear and don’t deliver great audio quality as
+            in-ear earbuds, but in-ears can cause discomfort the longer you wear
+            them, which is why I recently turn to the soundcore AeroFit, an
+            open-fit earbuds that I have been wearing for months now, it has
+            become a staple whenever I need to indulge myself in some tunes
+            while not needing people to shout at me in the office.
+          </p>
+          <img src="img/review1.jpeg" alt="review1" class="review-image" />
+        </div>
+        <div class="review">
+          <h3>Amy</h3>
+          <p>
+            One of the reasons why people keep looking forward to a new iPhone
+            every year is because of the ‘magical’ things that Apple announce on
+            stage, but this time, I think Samsung finally has the better magic.
+            Let’s face it, the past two Samsung Ultra flagships do feel a little
+            settled, aside from camera and performance improvements and having
+            the S Pen from the Note series, they look the same and the upgrades
+            don’t justify for many to upgrade from the S21 Ultra. The Galaxy S24
+            Ultra may look the same as before, but it’s a whole new breed that
+            comes with many exciting improvements a modern flagship really
+            needs.
+          </p>
+          <img src="img/review3.jpg" alt="review1" class="review-image" />
+        </div>
+        <!-- More reviews can be added here -->
+        <div class="review-form">
+          <h2>Submit Your Review</h2>
+          <form enctype="multipart/form-data">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="text"
+              name="gadget"
+              placeholder="Gadget Name"
+              required
+            />
+            <textarea
+              name="review"
+              rows="5"
+              placeholder="Your Review"
+              required
+            ></textarea>
+            <input type="file" name="image" accept="image/*" />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        &copy; 2024 <a href="ProjectHome.html">@GadgetsHub</a>. All rights
+        reserved.
+      </p>
+    </footer>
+  </body>
+</html>
